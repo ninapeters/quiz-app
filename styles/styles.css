@@ -3,3 +3,6 @@
 @import './utility.css';
 @import './components/card.css';
 @import './components/header.css';
+@import './components/form.css';
+@import './components/navigation.css';
+@import './components/tag-list.css';

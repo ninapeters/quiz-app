@@ -5,19 +5,38 @@
 }
 
 body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 h1 {
+  margin-top: 0;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 h3 {
-}
-
-p {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .btn {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  display: inline-block;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
 }

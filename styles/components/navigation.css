@@ -1,4 +1,5 @@
 .menu {
+  background-color: var(--green);
 }
 
 .menu__link {
