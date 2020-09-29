@@ -3,93 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Quiz</title>
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <h1>Quiz-App</h1>
     </header>
 
     <main>
-      <section>
-        <img src="icons/bookmark-ol.svg" alt="set bookmark" />
-        <h2>Question</h2>
-        <p>
+      <section class="card">
+        <img src="images/bookmark-ol.svg" alt="set bookmark" />
+        <h2 class="card__title">Question</h2>
+        <p class="card__question">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
           doloribus? Repellendus asperiores magnam obcaecati a consectetur
           numquam pariatur.
         </p>
-        <button>Show answer</button>
-        <p>
+        <button class="btn">Show answer</button>
+        <p class="card__answer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
-        <ul>
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-          <li>Sit amet</li>
+        <ul class="tag-list">
+          <li class="tags_list">Lorem</li>
+          <li class="tags_list">Ipsum</li>
+          <li class="tags_list">Dolor</li>
+          <li class="tags_list">Sit amet</li>
         </ul>
       </section>
 
-      <section>
-        <img src="icons/bookmark-ol.svg" alt="set bookmark" />
-        <h2>Question</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          exercitationem laborum itaque veniam! Magnam repellendus quisquam
-          consequuntur nam impedit molestias! Inventore esse voluptas aperiam
-          vero quasi perferendis explicabo quod tempore.
+      <section class="card">
+        <img src="images/bookmark-ol.svg" alt="set bookmark" />
+        <h2 class="card__title">Question</h2>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+          doloribus? Repellendus asperiores magnam obcaecati a consectetur
+          numquam pariatur.
         </p>
-        <button>Show answer</button>
-        <p>
+        <button class="btn">Show answer</button>
+        <p class="card__answer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
-        <ul>
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-          <li>Sit amet</li>
+        <ul class="tag-list">
+          <li class="tags_list">Lorem</li>
+          <li class="tags_list">Ipsum</li>
+          <li class="tags_list">Dolor</li>
+          <li class="tags_list">Sit amet</li>
         </ul>
       </section>
 
-      <section>
-        <img src="icons/bookmark-ol.svg" alt="set bookmark" />
-        <h2>Question</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          exercitationem laborum itaque veniam! Inventore esse voluptas aperiam
-          vero quasi perferendis explicabo quod tempore.
+      <section class="card">
+        <img src="images/bookmark-ol.svg" alt="set bookmark" />
+        <h2 class="card__title">Question</h2>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+          doloribus? Repellendus asperiores magnam obcaecati a consectetur
+          numquam pariatur.
         </p>
-        <button>Show answer</button>
-        <p>
+        <button class="btn">Show answer</button>
+        <p class="card__answer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
-        <ul>
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-          <li>Sit amet</li>
+        <ul class="tags">
+          <li class="tags_list">Lorem</li>
+          <li class="tags_list">Ipsum</li>
+          <li class="tags_list">Dolor</li>
+          <li class="tags_list">Sit amet</li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="html/index.html"
-        ><img src="icons/home.svg" alt="homescreen"
-      /></a>
-      <a href="html/bookmark.html"
-        ><img src="icons/bookmark.svg" alt="bookmarks"
-      /></a>
-      <a href="html/create.html"
-        ><img src="icons/create.svg" alt="create your own question"
-      /></a>
-      <a href="html/profile.html"
-        ><img src="icons/profile.svg" alt="your profile"
-      /></a>
+      <nav class="menu">
+        <a class="menu__link" href="/"
+          ><img src="images/home-fill.svg" alt="homescreen"
+        /></a>
+        <a class="menu__link" href="bookmark.html"
+          ><img src="images/bookmarks-ol.svg" alt="bookmarks"
+        /></a>
+        <a class="menu__link" href="create.html"
+          ><img src="images/create-ol.svg" alt="create your own question"
+        /></a>
+        <a class="menu__link" href="profile.html"
+          ><img src="images/profile-ol.svg" alt="your profile"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>

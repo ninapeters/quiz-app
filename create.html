@@ -3,44 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Quiz-App – Create</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>Create</h1>
     </header>
 
     <main>
-      <form action="">
-        <label>
+      <form class="create-card" action="">
+        <label class="create-card__title">
           Add question
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea
+            class="create-card__copy"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
         </label>
-        <label>
+        <label class="create-card__title">
           Add answer
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea
+            class="create-card__copy"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
         </label>
-        <label>
+        <label class="create-card__title">
           Add taggs
-          <input type="text" />
+          <input class="tags__list" type="text" />
         </label>
-        <button>Submit</button>
+        <button class="btn">Submit</button>
       </form>
     </main>
 
     <footer>
-      <a href="html/index.html"
-        ><img src="icons/home.svg" alt="homescreen"
-      /></a>
-      <a href="html/bookmark.html"
-        ><img src="icons/bookmark.svg" alt="bookmarks"
-      /></a>
-      <a href="html/create.html"
-        ><img src="icons/create.svg" alt="create your own question"
-      /></a>
-      <a href="html/profile.html"
-        ><img src="icons/profile.svg" alt="your profile"
-      /></a>
+      <nav class="menu">
+        <a class="menu__link" href="index.html"
+          ><img src="images/home-ol.svg" alt="homescreen"
+        /></a>
+        <a class="menu__link" href="bookmark.html"
+          ><img src="images/bookmarks-ol.svg" alt="bookmarks"
+        /></a>
+        <a class="menu__link" href="/"
+          ><img src="images/create-fill.svg" alt="create your own question"
+        /></a>
+        <a class="menu__link" href="profile.html"
+          ><img src="images/profile-ol.svg" alt="your profile"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>

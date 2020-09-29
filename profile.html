@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Quiz-App – Profile</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>Profile</h1>
     </header>
 
     <main>
-      <img src="images/profile.jpg" alt="add profile picture" />
+      <img
+        class="profile-pic"
+        src="images/profile.png"
+        alt="add profile picture"
+      />
       <h2>Max Mustermann</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex mollitia
@@ -20,28 +29,30 @@
         vero voluptatum quidem minus.
       </p>
       <h3>Tags about skills</h3>
-      <ul>
-        <li>Lorem</li>
-        <li>Ipsum</li>
-        <li>Dolor</li>
-        <li>Sit amet</li>
-        <button>Logout</button>
+      <ul class="tags">
+        <li class="tags__list">Lorem</li>
+        <li class="tags__list">Ipsum</li>
+        <li class="tags__list">Dolor</li>
+        <li class="tags__list">Sit amet</li>
+        <button class="btn">Logout</button>
       </ul>
     </main>
 
     <footer>
-      <a href="html/index.html"
-        ><img src="icons/home.svg" alt="homescreen"
-      /></a>
-      <a href="html/bookmark.html"
-        ><img src="icons/bookmark.svg" alt="bookmarks"
-      /></a>
-      <a href="html/create.html"
-        ><img src="icons/create.svg" alt="create your own question"
-      /></a>
-      <a href="html/profile.html"
-        ><img src="icons/profile.svg" alt="your profile"
-      /></a>
+      <nav class="menu">
+        <a class="menu__link" href="index.html"
+          ><img src="images/home-ol.svg" alt="homescreen"
+        /></a>
+        <a class="menu__link" href="bookmark.html"
+          ><img src="images/bookmarks-ol.svg" alt="bookmarks"
+        /></a>
+        <a class="menu__link" href="create.html"
+          ><img src="images/create-ol.svg" alt="create your own question"
+        /></a>
+        <a class="menu__link" href="/"
+          ><img src="images/profile-fill.svg" alt="your profile"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>
