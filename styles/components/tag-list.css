@@ -12,3 +12,9 @@
   text-transform: uppercase;
   color: var(--green);
 }
+
+.tags__title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--green);
+}
