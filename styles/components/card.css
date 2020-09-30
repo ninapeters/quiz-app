@@ -8,8 +8,10 @@
 .card__bookmark {
   position: absolute;
   right: 5px;
-  top: -13px;
+  top: -11.5px;
   width: 60px;
+  filter: invert(50%) sepia(110%) saturate(400%) hue-rotate(890deg)
+    brightness(40%) contrast(100%);
 }
 
 .card__title {
