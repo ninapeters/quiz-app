@@ -3,9 +3,10 @@
 }
 
 .card {
-  border-radius: 10px;
-  background-color: var(--light-blue);
-  text-align: center;
+  position: relative;
+  border: 2px var(--dark-blue) solid;
+  box-shadow: 6px 6px 1px 0px var(--violet);
+  /* background-color: var(--light-blue); */
 }
 
 .card__title {

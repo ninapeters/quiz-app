@@ -16,6 +16,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 400;
+  color: var(--dark-blue);
 }
 
 h1 {
@@ -27,7 +28,10 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  width: 30px;
+  border-bottom: solid 2.5px;
+  padding-bottom: 10px;
+  font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
 }

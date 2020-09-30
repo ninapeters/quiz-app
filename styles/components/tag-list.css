@@ -2,8 +2,13 @@
   list-style-type: none;
   display: grid;
   grid-auto-flow: column;
-  place-items: center;
+  gap: 15px;
 }
 
 .tags__list {
+  border: 1.5px var(--green) solid;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--green);
 }
