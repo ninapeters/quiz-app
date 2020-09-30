@@ -20,12 +20,6 @@
   color: var(--dark-blue);
 }
 
-.create-card__title--tags {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: var(--green);
-}
-
 .tags__list--new-tag {
   display: block;
   width: 100%;
