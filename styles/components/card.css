@@ -9,6 +9,13 @@
   /* background-color: var(--light-blue); */
 }
 
+.card__bookmark {
+  position: absolute;
+  right: -5px;
+  top: -15px;
+  width: 70px;
+}
+
 .card__title {
 }
 

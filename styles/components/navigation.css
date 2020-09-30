@@ -1,10 +1,15 @@
 .menu {
-  padding-top: 27px;
   display: grid;
   grid-auto-flow: column;
   place-items: center;
 }
 
 .menu__link {
-  transform: scale(2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__link--icon {
+  width: 40px;
 }
