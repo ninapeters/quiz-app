@@ -1,4 +1,8 @@
 .tags {
+  list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
 }
 
 .tags__list {

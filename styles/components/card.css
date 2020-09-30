@@ -1,4 +1,10 @@
+.scrolling {
+  overflow-y: scroll;
+}
+
 .card {
+  border-radius: 10px;
+  background-color: var(--light-blue);
 }
 
 .card__title {
@@ -7,5 +13,6 @@
 .card__question {
 }
 
-.card-answer {
+.card__answer {
+  display: none;
 }
