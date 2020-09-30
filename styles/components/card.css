@@ -11,9 +11,9 @@
 
 .card__bookmark {
   position: absolute;
-  right: -5px;
+  right: 5px;
   top: -15px;
-  width: 70px;
+  width: 60px;
 }
 
 .card__title {
@@ -24,4 +24,17 @@
 
 .card__answer {
   display: none;
+}
+
+.create-card {
+  border: 2px var(--dark-blue) solid;
+  box-shadow: 6px 6px 1px 0px var(--violet);
+}
+
+.create-card__title {
+}
+
+.create-card__copy {
+  display: block;
+  width: 100%;
 }
