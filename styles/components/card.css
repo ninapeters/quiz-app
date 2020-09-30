@@ -5,6 +5,7 @@
 .card {
   border-radius: 10px;
   background-color: var(--light-blue);
+  text-align: center;
 }
 
 .card__title {
