@@ -44,3 +44,7 @@ h3 {
 footer {
   background-color: var(--blue);
 }
+
+.scrolling {
+  overflow-y: scroll;
+}
