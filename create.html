@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
       rel="stylesheet"
@@ -11,11 +11,11 @@
     <title>Quiz-App – Create</title>
   </head>
   <body>
-    <header class="main-header">
-      <h1>Create</h1>
+    <header class="main-header pd-10">
+      <h1 class="pd-t-15">Create</h1>
     </header>
 
-    <main>
+    <main class="scrolling">
       <form class="create-card" action="">
         <label class="create-card__title">
           Add question
@@ -46,18 +46,31 @@
     </main>
 
     <footer>
-      <nav class="menu">
+      <nav class="menu pd-t-15">
         <a class="menu__link" href="index.html"
-          ><img src="images/home-ol.svg" alt="homescreen"
+          ><img
+            class="menu__link--icon"
+            src="images/home-ol.svg"
+            alt="homescreen"
         /></a>
         <a class="menu__link" href="bookmarks.html"
-          ><img src="images/bookmark-ol.svg" alt="bookmarks"
+          ><img
+            class="menu__link--icon"
+            src="images/bookmark-ol.svg"
+            alt="bookmarks"
         /></a>
-        <a class="menu__link" href="/"
-          ><img src="images/create-fill.svg" alt="create your own question"
+        <a class="menu__link" href=""
+          ><img
+            class="menu__link--icon"
+            src="images/create-fill.svg"
+            alt="create your own question"
         /></a>
+
         <a class="menu__link" href="profile.html"
-          ><img src="images/profile-ol.svg" alt="your profile"
+          ><img
+            class="menu__link--icon"
+            src="images/profile-ol.svg"
+            alt="your profile"
         /></a>
       </nav>
     </footer>
