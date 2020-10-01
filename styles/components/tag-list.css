@@ -21,6 +21,7 @@
 }
 
 .tag-list__new-tag {
+  margin: 4px 0;
   display: block;
   width: 100%;
   height: 40px;

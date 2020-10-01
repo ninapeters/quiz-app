@@ -16,6 +16,7 @@
   display: block;
   width: 100%;
   border: 2px var(--dark-blue) solid;
+  padding: 8px;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 400;
