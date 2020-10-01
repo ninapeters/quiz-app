@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  width: 30px;
+  width: 28px;
   border-bottom: solid 2.5px;
   padding-bottom: 10px;
   font-size: 28px;
@@ -43,8 +43,4 @@ h3 {
 
 footer {
   background-image: linear-gradient(150deg, #55afe2 20%, #55e2ce 80%);
-}
-
-.scrolling {
-  overflow-y: scroll;
 }
