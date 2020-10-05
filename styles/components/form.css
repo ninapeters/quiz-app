@@ -25,4 +25,6 @@
 
 .form-card__copy:focus {
   border: 2px var(--blue) solid;
+  outline: none;
+  resize: none;
 }

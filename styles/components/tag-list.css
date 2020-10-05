@@ -34,4 +34,6 @@
 
 .tag-list__new-tag:focus {
   border: 2px var(--violet) solid;
+  outline: none;
+  resize: none;
 }
