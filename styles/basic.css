@@ -7,7 +7,7 @@
 body {
   margin: 0;
   display: grid;
-  grid-template-rows: 90px auto 70px;
+  grid-template-rows: 76px auto 52px;
   position: fixed;
   left: 0;
   top: 0;
