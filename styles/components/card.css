@@ -7,17 +7,17 @@
 
 .card__bookmark {
   position: absolute;
-  right: 6px;
-  top: -12px;
-  width: 60px;
+  right: 12px;
+  top: -8px;
+  width: 48px;
   color: var(--light-blue);
 }
 
 .card__bookmark--active {
   position: absolute;
-  right: 6px;
-  top: -12px;
-  width: 60px;
+  right: 12px;
+  top: -8px;
+  width: 48px;
   color: var(--dark-blue);
 }
 
