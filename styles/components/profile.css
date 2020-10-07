@@ -1,17 +1,17 @@
 .profile__intro {
+  align-items: flex-end;
   display: grid;
   gap: 4px 32px;
   grid-template-columns: 1fr 1fr;
-  align-items: flex-end;
 }
 
 .profile__intro--pic {
-  width: 100%;
-  height: 155px;
-  object-fit: cover;
   border: 2px var(--dark-blue) solid;
   box-shadow: 6px 6px 1px 0px var(--violet);
+  height: 155px;
+  object-fit: cover;
   padding: 10px;
+  width: 100%;
 }
 
 .profile__intro--copy {

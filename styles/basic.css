@@ -1,39 +1,37 @@
-/* font-family: 'Quicksand', sans-serif; 400 Regular, 600 Semibold */
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+  color: var(--dark-blue);
   display: grid;
-  grid-template-rows: 76px auto 52px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: var(--dark-blue);
+  grid-template-rows: 76px auto 52px;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 h1 {
-  margin: 0;
+  color: var(--white);
   font-size: 36px;
+  margin: 0;
   text-align: center;
   text-transform: uppercase;
-  color: var(--white);
 }
 
 h2 {
-  width: 28px;
   border-bottom: solid 2.5px;
-  padding-bottom: 10px;
   font-size: 28px;
   font-weight: 600;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  width: 28px;
 }
 
 h3 {

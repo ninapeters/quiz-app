@@ -1,17 +1,17 @@
 .menu {
   display: grid;
   grid-auto-flow: column;
-  place-items: center;
   padding-top: 14px;
+  place-items: center;
 }
 
 .menu__link {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .menu__link--icon {
-  width: 26px;
   filter: invert(100%);
+  width: 26px;
 }

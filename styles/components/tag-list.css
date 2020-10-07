@@ -1,35 +1,35 @@
 .tag-list {
-  list-style-type: none;
   display: grid;
-  grid-auto-flow: column;
   gap: 16px;
+  grid-auto-flow: column;
+  list-style-type: none;
   padding-left: 0;
 }
 
 .tag-list__item {
   border: 1.5px var(--green) solid;
+  color: var(--green);
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--green);
 }
 
 .tag-list__title {
+  color: var(--green);
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--green);
 }
 
 .tag-list__new-tag {
-  margin: 4px 0;
-  display: block;
-  width: 100%;
-  height: 40px;
   border: 2px var(--green) solid;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-align: center;
   color: var(--green);
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  margin: 4px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .tag-list__new-tag:focus {

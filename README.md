@@ -14,3 +14,7 @@
 - write HTML
 - create CSS structure
 - Use BEM
+
+### Next:
+
+- add JavaScript

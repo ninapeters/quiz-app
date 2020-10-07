@@ -1,24 +1,24 @@
 .card {
-  position: relative;
   border: 2px var(--dark-blue) solid;
   box-shadow: 6px 6px 1px 0px var(--violet);
   padding: 20px;
+  position: relative;
 }
 
 .card__bookmark {
+  color: var(--light-blue);
   position: absolute;
   right: 12px;
   top: -8px;
   width: 48px;
-  color: var(--light-blue);
 }
 
 .card__bookmark--active {
+  color: var(--dark-blue);
   position: absolute;
   right: 12px;
   top: -8px;
   width: 48px;
-  color: var(--dark-blue);
 }
 
 .card__answer {

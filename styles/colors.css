@@ -1,10 +1,10 @@
 /* #55e2ce #55afe2 #8755e2 #c5d7e1 #014470*/
 
 :root {
-  --green: #55e2ce;
   --blue: #55afe2;
-  --light-blue: #d6e7f9;
   --dark-blue: #014470;
+  --green: #55e2ce;
+  --light-blue: #d6e7f9;
   --violet: #8755e2;
   --white: #ffffff;
 }
