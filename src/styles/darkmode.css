@@ -1,0 +1,40 @@
+.darkmode-button {
+  background-color: var(--white);
+  border: 2px var(--violet) solid;
+  box-shadow: 6px 6px 1px 0px var(--green);
+  color: var(--violet);
+  font-size: 20px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  top: 94px;
+  width: 40px;
+}
+
+.dm-body {
+  background-color: #01233b;
+  color: var(--white);
+}
+
+.dm-button {
+  background-color: var(--violet);
+  box-shadow: 6px 6px 1px 0px var(--green);
+  color: var(--white);
+}
+
+.dm-card {
+  border: 2px var(--white) solid;
+  box-shadow: 6px 6px 1px 0px var(--blue);
+  padding: 20px;
+  position: relative;
+}
+
+.dm-form-card__copy {
+  border: 2px var(--white) solid;
+  color: var(--white);
+}
+
+.dm-profile__intro--pic {
+  border: 2px var(--white) solid;
+  box-shadow: 6px 6px 1px 0px var(--blue);
+}

@@ -12,7 +12,7 @@
     <title>Quiz</title>
   </head>
 
-  <body>
+  <body data-js="body">
     <header class="main-header">
       <h1 data-js="heading">Quiz-App</h1>
     </header>
@@ -183,6 +183,7 @@
         <label class="form-card__title">
           Add question
           <textarea
+            data-js="form-card-copy"
             class="form-card__copy"
             name=""
             id=""
@@ -193,6 +194,7 @@
         <label class="form-card__title">
           Add answer
           <textarea
+            data-js="form-card-copy"
             class="form-card__copy"
             name=""
             id=""
@@ -209,10 +211,11 @@
     </main>
     <!-- Profile -->
     <main data-js="page" data-name="profile" class="scrolling hidden">
-      <button class="darkmode-button">D</button>
+      <button data-js="darkmode-button" class="darkmode-button">D</button>
       <section class="profile mg-tb">
         <div class="profile__intro">
           <img
+            data-js="profile-pic"
             class="profile__intro--pic"
             src="images/profile.png"
             alt="add profile picture"

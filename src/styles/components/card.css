@@ -5,13 +5,6 @@
   position: relative;
 }
 
-.dm-card {
-  border: 2px var(--white) solid;
-  box-shadow: 6px 6px 1px 0px var(--blue);
-  padding: 20px;
-  position: relative;
-}
-
 .card__bookmark {
   color: var(--light-blue);
   position: absolute;
