@@ -9,6 +9,19 @@
   text-transform: uppercase;
 }
 
+.darkmode-button {
+  background-color: var(--white);
+  border: 2px var(--violet) solid;
+  box-shadow: 6px 6px 1px 0px var(--green);
+  color: var(--violet);
+  font-size: 20px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  top: 94px;
+  width: 40px;
+}
+
 .dm-button {
   background-color: var(--blue);
   border: 2px var(--white) solid;
