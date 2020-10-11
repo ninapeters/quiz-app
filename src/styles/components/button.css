@@ -8,3 +8,10 @@
   padding: 8px 12px;
   text-transform: uppercase;
 }
+
+.dm-button {
+  background-color: var(--blue);
+  border: 2px var(--white) solid;
+  box-shadow: 6px 6px 1px 0px var(--green);
+  color: var(--white);
+}
