@@ -12,7 +12,7 @@
     <title>Quiz</title>
   </head>
 
-  <body>
+  <body data-js="body">
     <header class="main-header">
       <h1 data-js="heading">Quiz-App</h1>
     </header>
@@ -39,8 +39,7 @@
         </p>
         <button data-js="answer-button" class="button">Show answer</button>
         <p data-js="answer-text" class="hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          dolorem voluptatibus accusantium ut perferendis totam eveniet.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <ul class="tag-list pd-l-0 mg-b">
           <li class="tag-list__item">Lorem</li>
@@ -71,8 +70,7 @@
         </p>
         <button data-js="answer-button" class="button">Show answer</button>
         <p data-js="answer-text" class="hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          dolorem voluptatibus accusantium ut perferendis totam eveniet.
+          Facilis dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
         <ul class="tag-list pd-l-0 mg-b">
           <li class="tag-list__item">Lorem</li>
@@ -137,8 +135,7 @@
         </p>
         <button data-js="answer-button" class="button">Show answer</button>
         <p data-js="answer-text" class="hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          dolorem voluptatibus accusantium ut perferendis totam eveniet.
+          Facilis dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
         <ul class="tag-list pd-l-0 mg-b">
           <li class="tag-list__item">Lorem</li>
@@ -186,6 +183,7 @@
         <label class="form-card__title">
           Add question
           <textarea
+            data-js="form-card-copy"
             class="form-card__copy"
             name=""
             id=""
@@ -196,6 +194,7 @@
         <label class="form-card__title">
           Add answer
           <textarea
+            data-js="form-card-copy"
             class="form-card__copy"
             name=""
             id=""
@@ -212,9 +211,11 @@
     </main>
     <!-- Profile -->
     <main data-js="page" data-name="profile" class="scrolling hidden">
+      <button data-js="darkmode-button" class="darkmode-button">D</button>
       <section class="profile mg-tb">
         <div class="profile__intro">
           <img
+            data-js="profile-pic"
             class="profile__intro--pic"
             src="images/profile.png"
             alt="add profile picture"

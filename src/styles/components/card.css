@@ -14,7 +14,7 @@
 }
 
 .card__bookmark--active {
-  color: var(--dark-blue);
+  color: var(--green);
   position: absolute;
   right: 12px;
   top: -8px;
