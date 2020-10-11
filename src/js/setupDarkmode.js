@@ -6,18 +6,28 @@ export default function setupDarkmode() {
 
   function toggleDarkmode() {
     const body = getDataJs('body')
-    const button = getDataJs('answer-button')
-    const card = getDataJs('card')
-    const formCopy = getDataJs('form-card-copy')
+    const card = getAllDataJs('card')
+    const form = getDataJs('form')
+    const formCopy = getAllDataJs('form-card-copy')
     const profileImage = getDataJs('profile-pic')
 
     const buttonText = darkmodeButton.textContent.trim()
     darkmodeButton.textContent = buttonText === 'D' ? 'L' : 'D'
 
     body.classList.toggle('dm-body')
-    button.classList.toggle('dm-button')
-    card.classList.toggle('dm-card')
-    formCopy.classList.toggle('dm-card')
+
+    card.forEach(addDarkmodeToggle)
+    function addDarkmodeToggle(card) {
+      card.classList.toggle('dm-card')
+    }
+
+    form.classList.toggle('dm-form-card')
+
+    formCopy.forEach(addDarkmodeToggle)
+    function addDarkmodeToggle(formCopy) {
+      formCopy.classList.toggle('dm-form-card__copy')
+    }
+
     profileImage.classList.toggle('dm-profile__intro--pic')
   }
 }

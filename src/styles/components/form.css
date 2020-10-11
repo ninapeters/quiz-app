@@ -7,11 +7,6 @@
   padding: 20px;
 }
 
-.dm-form-card {
-  border: 2px var(--white) solid;
-  box-shadow: 6px 6px 1px 0px var(--blue);
-}
-
 .form-card__title {
   text-transform: uppercase;
 }
