@@ -13,3 +13,7 @@
 .scrolling {
   overflow-y: scroll;
 }
+
+.hidden {
+  display: none;
+}

@@ -5,13 +5,21 @@
   place-items: center;
 }
 
-.menu__link {
+.menu__button {
   align-items: center;
   display: flex;
   justify-content: center;
+  border: none;
+  background-color: transparent;
 }
 
-.menu__link--icon {
-  filter: invert(100%);
+.menu__icon {
+  color: var(--white);
+  opacity: 50%;
+  width: 26px;
+}
+
+.menu__icon--active {
+  color: var(--white);
   width: 26px;
 }
