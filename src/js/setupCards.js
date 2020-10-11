@@ -1,4 +1,4 @@
-import { getAllDataJs, getDataJs } from './lib'
+import { getAllDataJs } from './lib'
 
 export default function setupCards() {
   const cards = getAllDataJs('card')
@@ -11,21 +11,22 @@ function addCardLogic(card) {
 }
 
 function addBookmarkToggle(card) {
-  const bookmark = card.getDataJs('card-bookmark')
+  const bookmark = card.querySelector('[data-js=card-bookmark]')
   bookmark.addEventListener('click', toggleBookmark)
 }
+
 function toggleBookmark(event) {
   event.currentTarget.classList.toggle('card__bookmark--active')
 }
 
 function toggleAnswer(card) {
-  const answerButton = card.getDataJs('answer-button')
-  const buttonText = answerButton.textContent.trim()
-  const answerText = card.getDataJs('answer-text')
+  const answerButton = card.querySelector('[data-js=answer-button]')
 
-  button.addEventListener('click', () => {
+  answerButton.addEventListener('click', () => {
+    const buttonText = answerButton.textContent.trim()
+    const answerText = card.querySelector('[data-js=answer-text]')
     answerButton.textContent =
       buttonText === 'Show answer' ? 'Hide answer' : 'Show answer'
-    answerText.classList.toggle('hidden', buttonText === 'Hide answer')
+    answerText.classList.toggle('hidden')
   })
 }
