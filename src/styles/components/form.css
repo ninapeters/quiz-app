@@ -21,10 +21,10 @@
   margin: 4px 0;
   padding: 8px;
   width: 100%;
+  resize: none;
 }
 
 .form-card__copy:focus {
   border: 2px var(--blue) solid;
   outline: none;
-  resize: none;
 }
