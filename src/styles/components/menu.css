@@ -11,15 +11,14 @@
   justify-content: center;
   border: none;
   background-color: transparent;
+  color: var(--white);
+  opacity: 50%;
+}
+
+.menu__button--active {
+  opacity: 100%;
 }
 
 .menu__icon {
-  color: var(--white);
-  opacity: 50%;
-  width: 26px;
-}
-
-.menu__icon--active {
-  color: var(--white);
   width: 26px;
 }

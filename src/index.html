@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="js/main.js"></script>
     <link rel="stylesheet" href="styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
@@ -13,12 +14,13 @@
 
   <body>
     <header class="main-header">
-      <h1>Quiz-App</h1>
+      <h1 data-js="heading">Quiz-App</h1>
     </header>
     <!-- Home -->
     <main data-js="page" data-name="home" class="scrolling">
-      <section class="card mg-tb">
+      <section data-js="card" class="card mg-tb">
         <svg
+          data-js="card-bookmark"
           class="card__bookmark"
           fill="currentcolor"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +37,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
           doloribus. Repellendus asperiores magnam obcaecati?
         </p>
-        <button class="button">Show answer</button>
-        <p class="card__answer">
+        <button data-js="answer-button" class="button">Show answer</button>
+        <p data-js="answer-text" class="hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
@@ -48,8 +50,9 @@
         </ul>
       </section>
 
-      <section class="card mg-tb">
+      <section data-js="card" class="card mg-tb">
         <svg
+          data-js="card-bookmark"
           class="card__bookmark"
           fill="currentcolor"
           xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +69,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
           doloribus?
         </p>
-        <button class="button">Show answer</button>
-        <p class="card__answer">
+        <button data-js="answer-button" class="button">Show answer</button>
+        <p data-js="answer-text" class="hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
@@ -79,8 +82,9 @@
         </ul>
       </section>
 
-      <section class="card mg-tb">
+      <section data-js="card" class="card mg-tb">
         <svg
+          data-js="card-bookmark"
           class="card__bookmark"
           fill="currentcolor"
           xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +101,8 @@
           Repellendus asperiores magnam obcaecati a consectetur numquam
           pariatur?
         </p>
-        <button class="button">Show answer</button>
-        <p class="card__answer">
+        <button data-js="answer-button" class="button">Show answer</button>
+        <p data-js="answer-text" class="hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
@@ -112,8 +116,9 @@
     </main>
     <!-- Bookmarks -->
     <main data-js="page" data-name="bookmarks" class="scrolling hidden">
-      <section class="card mg-tb">
+      <section data-js="card" class="card mg-tb">
         <svg
+          data-js="card-bookmark"
           class="card__bookmark--active"
           fill="currentcolor"
           xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +135,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
           doloribus. Repellendus asperiores magnam obcaecati?
         </p>
-        <button class="button">Show answer</button>
-        <p class="card__answer">
+        <button data-js="answer-button" class="button">Show answer</button>
+        <p data-js="answer-text" class="hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
@@ -143,8 +148,9 @@
         </ul>
       </section>
 
-      <section class="card mg-tb">
+      <section data-js="card" class="card mg-tb">
         <svg
+          data-js="card-bookmark"
           class="card__bookmark--active"
           fill="currentcolor"
           xmlns="http://www.w3.org/2000/svg"
@@ -161,8 +167,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
           doloribus?
         </p>
-        <button class="button">Show answer</button>
-        <p class="card__answer">
+        <button data-js="answer-button" class="button">Show answer</button>
+        <p data-js="answer-text" class="hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           dolorem voluptatibus accusantium ut perferendis totam eveniet.
         </p>
@@ -233,9 +239,13 @@
     <!-- Menu -->
     <footer>
       <nav class="menu">
-        <button data-js="nav" data-name="home" class="menu__button">
+        <button
+          data-js="nav"
+          data-name="home"
+          class="menu__button menu__button--active"
+        >
           <svg
-            class="menu__icon--active"
+            class="menu__icon"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentcolor"
